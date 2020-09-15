@@ -26,13 +26,19 @@ def load_docx():
 def store_pdf_word():
     pass
 
+# function to store every word in the document in an array in order as its occurrence
 def store_csv_word():
     pass
 
+# function to store every word in the document in an array in order as its occurrence
 def store_txt_word():
     pass
 
+# function to store every word in the document in an array in order as its occurrence
 def store_docx_word():
     pass
 
 
+# main part of the script
+if __name__ == "__main__":
+    load_txt()
