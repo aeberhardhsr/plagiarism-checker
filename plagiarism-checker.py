@@ -54,13 +54,8 @@ def compare_words_com_chk(comb_list, chk_file):
             com_chk.append(0)
     return com_chk
 
-
-# function returns 0 or 1 if the word occurs in origin document
-def find_word_origin(combined_word_list, origin_word_list ):
-    pass
-
-# function returns 0 or 1 if the word occurs in check document
-def find_word_check(combined_word_list, check_word_list):
+# function to define the value of similarity
+def cosine_similarity(vector_a, vector_b):
     pass
 
 # main part of the script
@@ -81,6 +76,3 @@ if __name__ == "__main__":
     print("=========================================")
 
     print(compare_words_com_chk(combined_list(),load_check_txt(args.check_file)))
-    
-    #find_word_origin(combined_list, origin_file)
-    #find_word_check(combined_list, check_file)
